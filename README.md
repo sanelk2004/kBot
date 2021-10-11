@@ -15,6 +15,10 @@ All features with an asterisk (`*`) next to them are currently in development an
 [Click here](https://discord.com/api/oauth2/authorize?client_id=896935097859735552&permissions=517647686721&scope=bot%20applications.commands) to add kBot to your server today!
 
 ## Setting up a development environment
+For your convenience, I have included a `kBot.code-workspace` file that you can simply double-click to open the entire repository in Visual Studio Code (which is what I used to make this bot).
+
+I've also included a `kbot.service` file that you can add to systemd on Linux so that the bot automatically starts on boot, runs in the background, and restarts if it exits. Feel free to customize the `kbot.service` file to suit your needs.
+
 Prerequisites:
 - Git
 - Node.js
