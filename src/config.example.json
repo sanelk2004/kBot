@@ -1,0 +1,10 @@
+{
+    "discord_token": "",
+    "home_base": "",
+    "home_base_invite": "",
+    "use_discord_webhook": false,
+    "discord_logging_webhook": "",
+    "developer_users": [
+        ""
+    ]
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=kBot, a unique Discord bot
+
+[Service]
+WorkingDirectory=~/kbot/src
+ExecStart=/usr/bin/yarn start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

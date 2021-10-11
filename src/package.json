@@ -1,0 +1,42 @@
+{
+  "name": "kbot",
+  "description": "A unique Discord bot made by Sanel",
+  "version": "beta-1.0.0",
+  "homepage": "https://github.com/sanelk2004/kbot",
+  "bugs": {
+    "url": "https://github.com/sanelk2004/kbot/issues",
+    "email": "sanelk2004@icloud.com"
+  },
+  "license": "MIT",
+  "author": "Sanel Kukic <sanelk2004@icloud.com> (https://sanelkukic.us.eu.org)",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/sanelk2004"
+    },
+    {
+      "type": "liberapay",
+      "url": "https://liberapay.com/sanelkukic/donate"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://www.buymeacoffee.com/sanelkukic"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanelk2004/kbot.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "0.23.1",
+    "discord.js": "^13.2.0",
+    "winston": "^3.3.3",
+    "winston-discord": "^0.2.0"
+  }
+}
