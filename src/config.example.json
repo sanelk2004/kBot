@@ -4,6 +4,8 @@
     "home_base_invite": "",
     "use_discord_webhook": false,
     "discord_logging_webhook": "",
+    "discord_bug_report_webhook": "",
+    "discord_suggest_webhook": "",
     "developer_users": [
         ""
     ]

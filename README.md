@@ -7,12 +7,18 @@ All features with an asterisk (`*`) next to them are currently in development an
 - `*` NASA API integration (view pictures from the Curiosity, Opportunity, and Spirit rovers and the astronomy image of the day)
 - `*` USASpending.gov integration (view data on how much money the U.S. federal government is spending, data is sourced directly from the U.S. federal government)
 - `*` NOTAM viewer (allows you to view Notices to Airmen, data is sourced directly from the Federal Aviation Administration)
+- `*` CVE lookup (look up security vulnerabilities in the MITRE database by their CVE ID)
+- `*` View HTTP cats!
+- `*` View pictures of my two pet cats!
+- `*` Quotes database (share your favorite quotes with other kBot users!)
+- A few basic moderation commands (kick/ban)
+- A few basic utility commands (userinfo, serverinfo, avatar, servericon, bug, suggest)
 
 ## Invite kBot to your server today!
 
 **kBot is still under heavy development and therefore most of the features listed above will not be available currently!**
 
-[Click here](https://discord.com/api/oauth2/authorize?client_id=896935097859735552&permissions=517647686721&scope=bot%20applications.commands) to add kBot to your server today!
+kBot is currently still under heavy development and is not yet available for public use.
 
 ## Setting up a development environment
 For your convenience, I have included a `kBot.code-workspace` file that you can simply double-click to open the entire repository in Visual Studio Code (which is what I used to make this bot).

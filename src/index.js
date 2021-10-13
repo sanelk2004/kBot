@@ -48,7 +48,7 @@ const boot = async () => {
     commands.forEach(commandFile => {
         const commandName = commandFile.split('.')[0];
         const command = require(`./commands/${commandName}`);
-        logger.log('info', `Loaded command /${commandName}`);
+        logger.log('info', `Loaded command ${commandName}`);
         client.commandcontainer.set(command.commandData.name, command);
     });
     logger.log('info', 'Finished loading commands');

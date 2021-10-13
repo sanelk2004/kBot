@@ -4,6 +4,20 @@ module.exports = async(client, interaction) => {
     const cmd = client.commandcontainer.get(interaction.commandName);
     if (!cmd) return;
 
+    if (cmd.permissions !== undefined) {
+        let allowed = await cmd.permissions(client, interaction);
+        if (!allowed) {
+            if (interaction.replied) {
+                await interaction.followUp({content: 'Sorry, you do not have the proper permissions to use this command.', ephemeral: true});
+            } else if (interaction.deferred) {
+                await interaction.editReply({content: 'Sorry, you do not have the proper permissions to use this command.', ephemeral: true});
+            } else {
+                await interaction.reply({content: 'Sorry, you do not have the proper permissions to use this command.', ephemeral: true});
+            }
+            return;
+        }
+    }
+
     try {
         await cmd.run(client, interaction);
     } catch (e) {
